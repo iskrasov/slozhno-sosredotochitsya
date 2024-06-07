@@ -1,4 +1,31 @@
 /*
   Переменные для вашего проекта
   и их переопределение под различные устройства
+  тест гита
 */
+
+:root {
+  /* Цвета */
+  --accent-color: #FF0070;
+  --button-color: #FF0070;
+  --button-hover-color: #FF007040;
+  --content-text-color: #F1B2CE;
+  --decor-border-color: #FF0070;
+  --decor-content-item: #FF0070;
+  --main-back-color: #000028;
+  --rare-accent-color: #DB00FF;
+  --section-title-color: #FF0070;
+  --title-decor-color: #000028;
+  --title-decor-back-color: #FF0070;
+
+  /* Фоновое изображение */
+  --back-image: url(/images/cover-image-dark.png);
+
+  /* Отступы */
+  --gapping-l: 6.25rem;
+  --gapping-m: 3.125rem;
+  --gapping-s: 1.25rem;
+  --gapping-xs: 0.625rem;
+  --gapping-xxs: 0.313rem;
+
+}
