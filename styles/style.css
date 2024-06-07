@@ -200,8 +200,8 @@
   
   .header__title-decor {
     grid-column: 2;
-    background-color: var(--accent-color);
-    color: var(--main-back-color);
+    background-color: var(--title-decor-back-color);
+    color: var(--title-decor-color);
     font-weight: 600;
     line-height: 130%;
   }
@@ -321,8 +321,8 @@
   .main__pic-gallery-container {
     grid-column: 1 / 4;
     display: grid;
-    column-gap: var(--gapping-s);  
-    row-gap: 0.95rem; /* я поставил нестандартный отступ, чтобы максимально подогнать макет для тестов. Ирл я бы сделал стандартный */
+    column-gap: var(--gapping-s);
+    row-gap: 0.95rem;
   }
 
   .main__pic-gallery-item-container:nth-of-type(1) {
@@ -466,8 +466,8 @@
   
   .header__title-decor {
     grid-column: 2;
-    background-color: var(--accent-color);
-    color: var(--main-back-color);
+    background-color: var(--title-decor-back-color);
+    color: var(--title-decor-color);
     font-weight: 600;
     line-height: 130%;
   }
@@ -508,7 +508,7 @@
 
   .section__odd {
     grid-template-columns: 1fr 2fr;
-    column-gap: 2.5rem;
+    column-gap: var(--gapping-s);
   }
 
   .section__even {
@@ -600,8 +600,8 @@
   .main__pic-gallery-container {
     grid-column: 1 / 4;
     display: grid;
-    column-gap: var(--gapping-s);  
-    row-gap: 0.95rem; /* я поставил нестандартный отступ, чтобы максимально подогнать макет для тестов. Ирл я бы сделал стандартный */
+    column-gap: var(--gapping-s);
+    row-gap: 0.95rem;
   }
 
   .main__pic-gallery-item-container:nth-of-type(1) {
@@ -753,8 +753,8 @@
   }
   
   .header__title-decor {
-    background-color: var(--accent-color);
-    color: var(--main-back-color);
+    background-color: var(--title-decor-back-color);
+    color: var(--title-decor-color);
     font-weight: 600;
     line-height: 130%;
   }
@@ -778,7 +778,7 @@
   .main {
     padding-inline-start: var(--gapping-xs);
     padding-inline-end: var(--gapping-xs);
-    gap: var(--gapping-m); 
+    gap: var(--gapping-m);
   }
 
   .main__section {
