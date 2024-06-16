@@ -6,7 +6,7 @@
 :root .theme_light {
   --accent-color: #FF8DCB;
   --button-color: #353430;
-  --button-hover-color: #35343040;
+  --button-hover-color: rgb(50 49 45 / 0.4);
   --content-text-color: #353430;
   --decor-border-color: #353430;
   --decor-content-item: #FFF1F7;
@@ -23,7 +23,7 @@
   :root {
   --accent-color: #FF8DCB;
   --button-color: #353430;
-  --button-hover-color: #35343040;
+  --button-hover-color: rgb(50 49 45 / 0.4);
   --content-text-color: #353430;
   --decor-border-color: #353430;
   --decor-content-item: #FFF1F7;
@@ -35,13 +35,4 @@
 
   --back-image: url(/images/cover-image-light.png);
   }
-
-  .page.theme_auto .header__decor-text {
-    display: none;
-  } 
-    
-  .page.theme_auto .header__decor-circle {
-    display: none;
-  }
 }
-
