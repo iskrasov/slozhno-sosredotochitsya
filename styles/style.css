@@ -179,6 +179,7 @@
 
 .main__section-content-wrapper-even {
   grid-column: 1 / 4;
+  grid-row: 2;
   padding-inline-start: 0;
   display: grid;
 }
