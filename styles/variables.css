@@ -8,7 +8,7 @@
   /* Цвета */
   --accent-color: #FF0070;
   --button-color: #FF0070;
-  --button-hover-color: #FF007040;
+  --button-hover-color: rgb(255 0 112 / 0.4);
   --content-text-color: #F1B2CE;
   --decor-border-color: #FF0070;
   --decor-content-item: #FF0070;
@@ -20,7 +20,7 @@
 
   /* Фоновое изображение */
   --back-image: url(/images/cover-image-dark.png);
-
+  
   /* Отступы */
   --gapping-l: 6.25rem;
   --gapping-m: 3.125rem;
